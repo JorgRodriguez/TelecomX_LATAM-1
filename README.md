@@ -91,3 +91,7 @@ pandas
 numpy
 matplotlib
 seaborn
+```
+---
+**Autor:** Jorge Rodriguez - [LinkedIn](https://www.linkedin.com/in/jorg-rodriguez/)  
+**Fecha:** Enero 2026
