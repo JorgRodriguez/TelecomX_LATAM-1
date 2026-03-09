@@ -22,8 +22,19 @@ Este proyecto aborda el problema de la **evasión de clientes (Churn)** en una c
 ### 2. Análisis Exploratorio (EDA)
 Se utilizaron visualizaciones avanzadas para identificar patrones de comportamiento:
 * **Distribución de Evasión:** El **26.6%** de la base de clientes presenta estado de evasión.
+<ul>
+<img src="./Images/1 Distribucion-Clientes-Evasion.png" style="width: 60%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); margin: 15px 0;">
+</ul>
+
 * **Análisis por Categoría:** Identificación de mayor riesgo en contratos **Mensuales** y métodos de pago por **Cheque Electrónico**.
+<ul>
+<img src="./Images/2 Distribucion-Clientes-Evasion-Cualitativa.png" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); margin: 15px 0;">
+</ul>
+
 * **Variables Numéricas:** Uso de **Boxplots** para comparar Antigüedad vs. Cargos Mensuales.
+<ul>
+<img src="./Images/3 Distribucion-Clientes-Evasion-Cuantitativa.png" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); margin: 15px 0;">
+</ul>
 
 
 
@@ -59,8 +70,9 @@ Se utilizaron visualizaciones avanzadas para identificar patrones de comportamie
 ### Matriz de Correlación
 Se implementó una paleta de colores coherente con la identidad visual del proyecto (`#45B39D` para retención y `#EC7063` para evasión).
 * **Correlación Crítica:** La antigüedad (`-0.35`) es el factor preventivo más fuerte.
-
-
+<ul>
+<img src="./Images/4 matriz-correlacion.png" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); margin: 15px 0;">
+</ul>
 
 ---
 
